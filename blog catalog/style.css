@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding: 30px 0;
+  /* background-color: #005eff; */
+}
+
+.header__list-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+li {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  color: #212e44;
+}
+
+.header__btn {
+  padding: 10.5px 20px;
+  border-radius: 6px;
+  background-color: #f65a03;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: left;
+  border: none;
+}
+hr {
+  margin-top: 15px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 29px;
+}
+
+.home__link {
+  display: flex;
+  gap: 14px;
+}
+
+.home__link--title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  color: #212e44;
+}
+
+.home__link--title:active {
+  color: #f65a03;
+}
+
+.home__link--slash {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: left;
+  color: #a6abb4;
+}
+
+/* .home__btn {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  /* line-height: 21.79px; */
+/* text-align: left;
+  columns: #9097a1; */
+/* } */
+.Наш-блог {
+  background-color: #e9e9e9;
+  padding-top: 50px;
+  padding-bottom: 23px;
+}
+
+.Наш-блог-dflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Наш-блог-text {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54.47px;
+  text-align: left;
+  color: #4d5869;
+  padding-bottom: 42px;
+}
+
+/* .Наш-блог-text-p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+  color: white;
+} */
+
+.Наш-блог-icons {
+  width: 142px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 11.5px 16px;
+  border-radius: 6px;
+  background-color: #f65a03;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+  color: white;
+  border: none;
+  display: none;
+}
+
+.icon-menu {
+  width: 15px;
+  padding-left: 5px;
+}
+
+.Наш-блог-link-dflex {
+  display: flex;
+  gap: 20px;
+}
+
+.Наш-блог-link1 {
+  border: 1px solid black;
+  border: none;
+  border-radius: 15px;
+  padding: 13px 91.5px;
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.05px;
+  text-align: left;
+  color: #646d7c;
+}
+
+/* .Наш-блог-link1:hover {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px;
+  text-align: left;
+  color: #212e44;
+  padding: 25px 116px 39px 117px;
+  background-color: #f6f6f6;
+} */
+.Наш-блог-link2 {
+  border: 1px solid black;
+  border: none;
+  border-radius: 15px;
+  padding: 13px 91.5px;
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.05px;
+  text-align: left;
+  color: #646d7c;
+}
+
+/* .Наш-блог-link2:hover {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px;
+  text-align: left;
+  color: #212e44;
+  padding: 25px 116px 39px 117px;
+  background-color: #f6f6f6;
+} */
+
+.Наш-блог-link3 {
+  border: 1px solid black;
+  border: none;
+  border-radius: 15px;
+  padding: 13px 91.5px;
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.05px;
+  text-align: left;
+  color: #646d7c;
+}
+
+/* .Наш-блог-link3:hover {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px;
+  text-align: left;
+  color: #212e44;
+  padding: 25px 116px 39px 117px;
+  background-color: #f6f6f6;
+} */
+
+.Категории {
+  padding-top: 48px;
+  background-color: #f6f6f6;
+}
+
+.Категории-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Категории-text {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px;
+  text-align: left;
+  color: #374357;
+}
+
+.Категории__btn {
+  padding: 10.5px 35px;
+  border-radius: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: left;
+  color: #4d5869;
+  border-color: #e1e1e1;
+  background-color: #f6f6f6;
+}
+
+.busines {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  min-height: 58px;
+  top: 545px;
+  left: 267px;
+  gap: 0px;
+  border-radius: 12px 12px 0 0;
+
+  opacity: 0px;
+  padding: 19px 43px;
+  border: 1px solid #e1e1e1;
+  background-color: rgba(255, 255, 255, 0.792);
+  border-width: 2px, 2px, 4px, 2px;
+
+  /* border-style: solid;
+
+border-color: #E1E1E1; */
+
+  box-shadow: 0 5px 10px rgba(128, 128, 128, 0.81);
+  /* margin-bottom: 26px; */
+  
+}
+
+.busines__content {
+  display: flex;
+  gap: 10px;
+}
+
+.busines__text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  color: #212e44;
+}
+
+.busines__btn {
+  padding: 8px 12px;
+  border-radius: 100%;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  text-align: center;
+  color: #374357;
+}
+
+.fa-angle-up {
+  /* width: 30px; */
+}
+
+.busines__btn--title {
+  padding: 10px 13px;
+  border-radius: 100%;
+  background-color: #374357;
+  color: white;
+}
+
+.busines-icon {
+  width: 15px;
+  height: auto;
+}
+.busines-input {
+  display: none;
+}
+#busines:checked ~ .busines-input {
+  display: block;
+}
+
+.busines-input {
+  border: 1px solid grey;
+  width: 375px;
+  border-radius: 0 0 12px 12px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(128, 128, 128, 0.81);
+  margin-bottom: 20px;
+  border: none;
+}
+
+.busines-input--title {
+  display: block;
+  /* flex-direction: column; */
+  border-bottom: dashed;
+  width: 375px;
+  padding: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: #374357;
+  border-color: #E1E1E1;
+}

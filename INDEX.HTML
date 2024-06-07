@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .qizil,
+      .sariq,
+      .yashil {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        display: none;
+      }
+      .sariq {
+        background-color: yellow;
+      }
+      .yashil {
+        background-color: rgb(34, 255, 0);
+      }
+      #qizil:checked + .qizil {
+        display: block;
+      }
+
+      #sariq:checked + .sariq {
+        display: block;
+      }
+
+      #yashil:checked + .yashil {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="qizil">qizil</label><br />
+    <label for="sariq">sariq</label><br />
+    <label for="yas hil">yashil</label><br />
+
+    <input id="qizil" type="checkbox" hidden />
+
+    <div class="qizil">
+      <div>nbjnbzs <label for="qizil">icons</label></div>
+      <input id="qizil" type="checkbox" hidden />
+      <div>
+        <p></p>
+        <p></p>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <input id="sariq" type="checkbox" hidden />
+
+    <div class="sariq"></div>
+    <input id="yashil" type="checkbox" hidden />
+    <div class="yashil"></div>
+  </body>
+</html>

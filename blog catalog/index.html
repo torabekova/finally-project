@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <ul class="header__list-wrapper">
+            <li>
+              <img
+                class="header__img-logo"
+                src="./picture/Group 2480logo header.png"
+                alt="heder logo"
+              />
+            </li>
+            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li>
+              <i class="fa-solid fa-rocket"></i> Services
+              <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li><i class="fa-solid fa-briefcase"></i> Portfolio</li>
+            <li><i class="fa-solid fa-rss"></i> Blog</li>
+            <li>
+              <i class="fa-solid fa-chart-column"></i> Company
+              <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li><i class="fa-solid fa-globe header__icon"></i> EN</li>
+            <li><i class="fa-solid fa-cart-shopping header__icon"></i> 0</li>
+            <button class="header__btn">Get in touch</button>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="home">
+          <div class="home__link">
+            <a style="color: #f65a03" class="home__link--title" href="#"
+              >Home</a
+            >
+            <p class="home__link--slash">/</p>
+            <a style="color: #f65a03" class="home__link--title" href="#"
+              >Company</a
+            >
+            <p class="home__link--slash">/</p>
+            <a class="home__link--title" href="#">Our Blog</a>
+          </div>
+          <div class="home__link">
+            <img src="./img/Vectorvector (1).svg" alt="vector icon" />
+            <h1 class="home__btn">Вернуться назад</h1>
+          </div>
+        </section>
+      </div>
+    </main>
+    <section class="Наш-блог">
+      <div class="container">
+        <div class="Наш-блог-dflex">
+          <h1 class="Наш-блог-text">Наш блог</h1>
+          <a class="Наш-блог-icons" href="#"
+            >Категории
+            <img
+              class="icon-menu"
+              src="./img/free-icon-font-bars-sort-9811185 1katagori icon.svg"
+              alt=""
+          /></a>
+        </div>
+
+        <div class="Наш-блог-link-dflex">
+          <a class="Наш-блог-link1" href="#">Все материалы</a>
+          <a class="Наш-блог-link2" href="#">Для инвесторов</a>
+          <a class="Наш-блог-link3" href="#">Для стартапов</a>
+        </div>
+      </div>
+    </section>
+    <section class="Категории">
+      <div class="container">
+        <div class="Категории-about">
+          <h1 class="Категории-text">Категории</h1>
+          <button class="Категории__btn">
+            Сортировать <img src="./img/Vectorvector arrow.svg" alt="arrow" />
+          </button>
+        </div>
+
+        <div>
+          <div>
+            <!-- <input id="busines" type="checkbox" hidden /> -->
+            <div class="busines">
+              <div class="busines__content">
+                <img
+                  class="busines-icon"
+                  src="./img/free-icon-font-hand-holding-usd-9798432 1hand icon.png"
+                  alt=""
+                />
+                <p class="busines__text">Бизнес</p>
+              </div>
+              <div class="busines__icons">
+                <button class="busines__btn">13</button>
+                <label class="busines__btn--title" for="busines">
+                  <i class="fa-solid fa-angle-up"></i>
+                </label>
+              </div>
+            </div>
+            <input id="busines" type="checkbox" hidden />
+            <div class="busines-input">
+              <a class="busines-input--title" href="#">Малый бизнес</a>
+              <a class="busines-input--title" href="#">Средний бизнес</a>
+              <a style="border: none;" class="busines-input--title" href="#">Крупный бизнес</a>
+            </div>
+          </div>
+
+          <!-- <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/free-icon-font-chart-line-up-7661482 1line icon.png"
+                alt=""
+              />
+              <p class="busines__text">Маркетинг</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div>
+          <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/bitcoin 1bitvoin.png"
+                alt=""
+              />
+              <p class="busines__text">Криптовалюта</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div>
+          <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/graduation-cap 1cap.png"
+                alt=""
+              />
+              <p class="busines__text">Обучение</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div>
+          <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/microphone 1micrafon.png"
+                alt=""
+              />
+              <p class="busines__text">Разработка</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div>
+          <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/mobile 1mobile.png"
+                alt=""
+              />
+              <p class="busines__text">Аудиты</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div>
+          <div class="busines">
+            <div class="busines__content">
+              <img
+                class="busines-icon"
+                src="./img/globe 1globs.png"
+                alt=""
+              />
+              <p class="busines__text">Страны</p>
+            </div>
+            <div class="busines__icons">
+              <button class="busines__btn">13</button>
+              <label for="businez"
+                ><button class="busines__btn--title">
+                  <i class="fa-solid fa-angle-up"></i></button
+              ></label>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
