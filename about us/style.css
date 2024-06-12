@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+a{
+  color: #212e44;
+}
+
 .container {
   max-width: 1220px;
   width: 100%;
